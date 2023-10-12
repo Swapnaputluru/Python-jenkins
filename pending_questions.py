@@ -147,7 +147,7 @@ lists =[X,Y,Z,A]
 print("Hello Swapna", lists)
 
 
-print("Uday")
+print("Uday"
 
 
 
