@@ -137,6 +137,14 @@ def max_count_length(text):
 
 
 
+X = [10, 20, 20, 20]
+Y = [10, 20, 30, 40]
+Z = [10, 30, 40, 20]
+A= [20,60,70,80]
+
+lists =[X,Y,Z,A]
+
+print("Hello Swapna", lists)
 
 
 
