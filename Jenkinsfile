@@ -9,4 +9,17 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            emailext (
+                subject: "Pipeline Status: ${currentBuild.result}",
+                body: """
+                    Pipeline Status: ${currentBuild.result}
+
+                    View more details at: ${BUILD_URL}
+                """,
+                to: 'swapnareddy.putluru@gmail.com'
+            )
+        }
+    }
 }
